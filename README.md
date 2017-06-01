@@ -1,1 +1,1 @@
-# JavaAPI
+# Java API for NEOS Server
