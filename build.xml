@@ -27,7 +27,6 @@
   <property name="lib" location="lib"/>
 
   <target name="init">
-    <tstamp/>
     <mkdir dir="${build}"/>
   </target>
 
@@ -41,7 +40,7 @@
 
   <target name="dist" depends="compile">
     <mkdir dir="${dist}/lib"/>
-    <jar destfile="${dist}/lib/neos-${DSTAMP}.jar" basedir="${build}">
+    <jar destfile="${dist}/lib/neos.jar" basedir="${build}">
       <metainf file="LICENSE"/>
     </jar>
   </target>
